@@ -1,8 +1,18 @@
+body{
+    background-color: black;
+}
+
 h1 {
-    background-color: lightgrey;
+    background-color:plum;
     text-align: center;
     }
 a  {
-    color: lightskyblue;
+    color:cyan;
     padding: 20px;
+}
+
+#top-menu {
+    background-color: cadetblue;
+    padding: 10px;
+
 }
