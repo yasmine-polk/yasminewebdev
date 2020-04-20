@@ -1,10 +1,20 @@
 * {
     padding: 0%;
     margin: 0%;
+    border: 2px solid red;
 }
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70vw;
+    border: 4px dotted cyan;
+    margin: 20px auto;
 }
 
 h3 {
@@ -12,16 +22,14 @@ h3 {
     margin: 10px;
     padding: 10px;
 }
-    div{
-        border: black;
-    }
-img {
-    display: flex;
-    height: auto;
-    max-width: 100%;
+
+div{
+    border: black;
+    color: 
 }
-#flex-wrapper {
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+
+img {
+   
+    /* height: auto; */
+    max-width: 40%;
 }
